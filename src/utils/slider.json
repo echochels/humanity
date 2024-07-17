@@ -1,0 +1,44 @@
+[
+  {
+    "name": "No Poverty",
+    "price": "47,043",
+    "detail": "Creating jobs and improving living conditions for youth and women.",
+    "image": "./mission1.jpg"
+  },
+  {
+    "name": "Quality Education",
+    "price": "66,353",
+    "detail": "Providing training and raising awareness for lifelong learning.",
+    "image": "./mission2.jpg"
+  },
+  {
+    "name": "Gender Equality",
+    "price": "35,853",
+    "detail": "Empowering women and promoting their equal participation.",
+    "image": "./mission3.jpg"
+  },
+  {
+    "name": "Decent Work ",
+    "price": "47,043",
+    "detail": "Fostering self-reliance and productive employment.",
+    "image": "./mission4.jpg"
+  },
+  {
+    "name": "Reduced Inequalities",
+    "price": "66,353",
+    "detail": " Enhancing lives of the less privileged.",
+    "image": "./mission5.jpg"
+  },
+  {
+    "name": "Sustainable Cities and Communities",
+    "price": "35,853",
+    "detail": "Promoting unity and resilience.",
+    "image": "./mission6.jpg"
+  },
+  {
+    "name": "Peace, Justice, and Strong Institutions",
+    "price": "35,853",
+    "detail": "Building inclusive and peaceful communities.",
+    "image": "./mission7.jpg"
+  }
+]

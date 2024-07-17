@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.social-media {
+  margin-bottom: 1rem;
+}
+
+.social-media a {
+  margin: 0 10px;
+  color: #333;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+  color: var(--primary); /* Change this to your desired hover color */
+}
+.title {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 30px;
+  color: white;
+  border-bottom: 5px solid var(--dark);
+  /* width: 235px; */
+  margin: 15px 0;
+}
+
+.customers {
+  margin-top: 40px;
+  padding: 40px 0;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../public/people.jpeg") center/cover no-repeat fixed;
+  width: 100%;
+}
+
+.sec-width {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title h2 {
+  text-align: center;
+}
+
+.customers-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-wrap: wrap; /* Allow wrapping of items */
+}
+
+.customer {
+  background: #fff;
+  /* padding: 1rem; */
+  text-align: center;
+  justify-content: center;
+  margin: 24px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.75);
+  cursor: pointer;
+  transition: all 0.7s ease;
+  flex: 1 1 300px; /* Allow flexible width */
+}
+
+.rating {
+  margin: 10px 0;
+  color: var(--yellow);
+}
+
+.customer h3 {
+  font-size: 25px;
+}
+
+.customer p {
+  opacity: 0.7;
+  line-height: 1.8;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.customer img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin: 25px auto;
+}
+
+.customer span {
+  font-weight: 700;
+  opacity: 0.7;
+}
+
+.customer:hover {
+  transform: translateY(-18px);
+}
+
+@media (max-width: 500px) {
+  .customers p {
+    width: 100%;
+  }
+  
+  .customer img {
+    width: 100px;
+    height: 100px;
+  }
+}
