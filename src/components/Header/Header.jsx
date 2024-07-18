@@ -24,9 +24,10 @@ const Header = () => {
                 <a href="#mission">Our Mission</a>
                 <a href="#achievements">Achievements</a>
                 <a href="#value">Our Goals</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#residencies">Our Impact</a>
                 <a href="#contact">Contact Us</a>
                 <a href="#founders">Founders</a>
-                <a href="#residencies">Our Impact</a>
                 <button className='button'>
                 <a href="#getstarted" style={{textDecoration:"none", color:"#1A1A1A"}}>Donate</a>
                 </button>

@@ -1,6 +1,7 @@
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Residencies from "./components/Residencies/Residencies";
+import Gallery from "./components/Gallery/Gallery";
 import Value from "./components/Value/Value";
 import Contact from "./components/Contact/Contact";
 import GetStarted from "./components/GetStarted/GetStarted";
@@ -21,6 +22,8 @@ function App() {
       <About />
       <Achievements/>
       <Value />
+      <Gallery/>
+
       <Residencies />
       <Contact />
       <Founders />

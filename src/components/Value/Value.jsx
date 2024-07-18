@@ -25,7 +25,7 @@ const Value = () => {
         {/* right side */}
         <div className="flexColStart v-right">
 
-          <Roll>
+          <Reveal>
 
             <Accordion className='accordion' allowMultipleExpanded={false} preExpanded={[0]}>
               <div >
@@ -61,7 +61,7 @@ const Value = () => {
                 })
               }
             </Accordion>
-          </Roll>
+          </Reveal>
         </div>
       </div>
     </section>
