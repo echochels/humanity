@@ -39,9 +39,7 @@ const Gallery = () => {
         <div className="gallery-container">
           {images.map((image, index) => (
             <div key={index} className="gallery-item">
-                <Roll>
               <img src={image.src} alt={image.title} className="gallery-image" />
-              </Roll>
 
               <div className="card-body">
               <div className="card-title">{image.title}</div>
