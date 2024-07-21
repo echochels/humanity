@@ -27,7 +27,12 @@ const Customer = ({ rating, title, description, image, name, country }) => (
 );
 
 const Customers = () => (
-  <section className="customers" id="founders">
+  <section className="customers" id="founders" 
+ 
+    style={{
+      
+      background: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/people.jpeg") center/cover no-repeat fixed',
+    }}>
     <div className=" sec-width">
       <div className="title">
         <h2 style={{color:"var(--secondary"}}>MEET THE FOUNDERS</h2>
