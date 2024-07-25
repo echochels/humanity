@@ -1,6 +1,7 @@
 .inner-container {
     gap: 1.5rem;
-    background: #c1ffe1;
+    /* background: #c1ffe1; */
+    background: rgb(88, 213, 255);
     padding: 2rem;
     border-radius: 10px;
     text-align: center;
@@ -15,11 +16,11 @@
     color: rgb(0, 0, 0);
 }
 
-.inner-container .button {
+/* .inner-container .button {
     background: #3BFFB8;
     border-radius: 10px;
     color: black;
-}
+} */
 
 /* Popup styles */
 .popup {

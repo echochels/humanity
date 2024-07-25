@@ -29,7 +29,7 @@ const Header = () => {
                 <a href="#contact">Contact Us</a>
                 <a href="#founders">Founders</a>
                 <button className='button'>
-                <a href="#getstarted" style={{textDecoration:"none", color:"#1A1A1A"}}>Donate</a>
+                <a href="#getstarted" style={{textDecoration:"none", color:"#fff"}}>Donate</a>
                 </button>
             </div>
             </OutsideClickHandler>

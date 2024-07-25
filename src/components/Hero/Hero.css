@@ -1,5 +1,5 @@
 .hero-wrapper{
-    color: #1A1A1A;
+    color: var(--black);
     position: relative;
     padding-bottom: 2rem;
     z-index: 1;

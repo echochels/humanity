@@ -13,7 +13,7 @@ const About = () => {
           <div className="flex-column-start about-content">
             <div className="flex-center row">
               <div className="flex-column-center content-block">
-                <img src="./kid2.jpeg" alt="kids" className="image"/>
+                <img src="./founder.jpg" alt="kids" className="image"/>
                 <div className="flex-start">
                   <div className="flex-column-start detail">
                     <span className='secondary-text'>
@@ -35,7 +35,7 @@ const About = () => {
           <div className="flex-column-start about-content">
             <div className="flex-center row">
               <div className="flex-column-center content-block">
-                <img src="./kid.jpeg" alt="kids" className="image"/>
+                <img src="./a2.jpeg" alt="kids" className="image"/>
                 <div className="flex-start">
                   <div className="flex-column-start detail">
                     <span className='secondary-text'>

@@ -39,7 +39,7 @@ const Hero = () => {
                         <span>
                         <CountUp end={2}/>
                             <span>M</span>
-                            <span style={{color:"#FFF"}}>+</span>
+                            <span style={{color:"#4066ff"}}>+</span>
                         </span>
                         <span className='secondaryText'>Funds Raised</span>
                     </div>
@@ -47,7 +47,7 @@ const Hero = () => {
                     <div className="flexColCenter stat">
                         <span>
                         <CountUp end={200}/>
-                            <span style={{color:"#FFF"}}>+</span>
+                            <span style={{color:"#4066ff"}}>+</span>
                         </span>
                         <span className='secondaryText'>Empowered Youths</span>
                     </div>
@@ -57,7 +57,7 @@ const Hero = () => {
                         <span>
                         <CountUp start={200} end={500} duration={4}/>
                             <span>K</span>
-                            <span style={{color:"#FFF"}}>+</span>
+                            <span style={{color:"#4066ff"}}>+</span>
                         </span>
                         <span className='secondaryText'>Starter Packs</span>
                     </div>

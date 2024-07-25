@@ -3,18 +3,20 @@ import './Gallery.css';
 import { Roll } from 'react-awesome-reveal';
 
 const additionalImages = [
-  { src: './a1.jpeg', title: 'Tricycle Distribution' },
-  { src: './a2.jpeg', title: 'Motorcycles Distribution' },
+  { src: './a1.jpeg', title: 'Empowering Women' },
+  { src: './a9.jpeg', title: 'Youth Empowerment' },
   { src: './a3.jpeg', title: 'Fishing Farming' },
-  { src: './a4.jpeg', title: 'Catering' },
+  { src: './a4.jpeg', title: 'Empowering Youths' },
+  { src: './a6.jpeg', title: 'Empowering Youths' },
 ];
 
 const initialImages = [
-  { src: './a9.jpeg', title: 'Youth Empowerment' },
+  { src: './a7.jpeg', title: 'Youth Empowerment' },
+  { src: './a2.jpeg', title: 'Empowering Women' },
   { src: './a10.jpeg', title: 'Skill Development' },
-  { src: './a11.jpeg', title: 'Promoting Unity' },
+  { src: './a11.jpeg', title: 'Youth Empowerment' },
   { src: './a8.jpeg', title: 'Opened Borehole' },
-  { src: './a5.jpeg', title: 'Fishing Farming' },
+  { src: './a12.jpeg', title: 'Catering' },
 ];
 
 const Gallery = () => {
@@ -33,7 +35,7 @@ const Gallery = () => {
     return (
       <section className="gallery-section" id='gallery'>
                 <div className="title">
-                        <h2 style={{ color: "#1A1A1A" }}>GALLERY</h2>
+                        <h2 style={{ color: "#1A1A1A" }}>SEE OUR IMPACT</h2>
                     </div>
 
         <div className="gallery-container">

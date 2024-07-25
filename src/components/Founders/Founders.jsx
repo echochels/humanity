@@ -16,7 +16,7 @@ const Customer = ({ rating, title, description, image, name, country }) => (
       <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
         <i className="fab fa-twitter"></i>
       </a>
-      <a href="https://www.instagram.com/emekaobilor?igsh=YmpiM3g5d2E5d2c4" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.instagram.com/iyiatata_initiative" target="_blank" rel="noopener noreferrer">
         <i className="fab fa-instagram"></i>
       </a>
       <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">

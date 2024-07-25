@@ -13,7 +13,7 @@
 }
 
 .title h2 {
-  color: #1A1A1A;
+  color: var(--black);
 }
 
 .about-content {

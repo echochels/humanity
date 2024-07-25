@@ -29,10 +29,12 @@ const Contact = () => {
                                     </div>
                                     <div className="flexColStart detail">
                                         <span className='primaryText'>Call</span>
-                                        <span className='secondaryText'>+237698 56 73 81</span>
+                                        <span className='secondaryText'>+234 905 650 4304</span>
                                     </div>
                                 </div>
-                                <div className="flexCenter button">Call Now</div>
+                                <a href="tel:+2349056504304" className="flexCenter button">
+                                    Call Us
+                                </a>
                             </div>
 
                             <div className="flexColCenter mode">
@@ -42,10 +44,13 @@ const Contact = () => {
                                     </div>
                                     <div className="flexColStart detail">
                                         <span className='primaryText'>Chat</span>
-                                        <span className='secondaryText'>+237698 56 73 81</span>
+                                        <span className='secondaryText'>+234 905 650 4304</span>
                                     </div>
                                 </div>
-                                <div className="flexCenter button">Chat Now</div>
+                                <a href="https://wa.me/2349056504304" target="_blank" className="flexCenter button">
+                                    Chat Now
+                                </a>
+                                {/* <div className="flexCenter button">Chat Now </div> */}
                             </div>
                         </div>
 
@@ -57,11 +62,13 @@ const Contact = () => {
                                         <BsFillChatDotsFill size={25} />
                                     </div>
                                     <div className="flexColStart detail">
-                                        <span className='primaryText'>Video Call</span>
-                                        <span className='secondaryText'>+237698 56 73 81</span>
+                                        <span className='primaryText'>Email Us</span>
+                                        <span className='secondaryText'>iyiatata@support.com</span>
                                     </div>
                                 </div>
-                                <div className="flexCenter button">Video Call Now</div>
+                                <a href="mailto:someone@example.com" className="flexCenter button">
+                                    Email Us
+                                </a>
                             </div>
 
                             <div className="flexColCenter mode">
@@ -71,10 +78,12 @@ const Contact = () => {
                                     </div>
                                     <div className="flexColStart detail">
                                         <span className='primaryText'>Message</span>
-                                        <span className='secondaryText'>+237698 56 73 81</span>
+                                        <span className='secondaryText'>+234 905 650 4304</span>
                                     </div>
                                 </div>
-                                <div className="flexCenter button">Message Now</div>
+                                <a href="sms:+2349056504304" className="flexCenter button">
+                                    Message Us
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -82,9 +91,9 @@ const Contact = () => {
 
                 {/* right side */}
                 <div className="c-right">
-                        <div className="image-container" style={{ borderRadius: "10px", border: "2px solid #eee" }}>
-                            <img src="./cert.jpg" alt="" />
-                        </div>
+                    <div className="image-container" style={{ borderRadius: "10px", border: "2px solid #eee" }}>
+                        <img src="./cert.jpg" alt="" />
+                    </div>
                 </div>
             </div>
         </section>

@@ -1,7 +1,6 @@
 .gallery-section {
   padding: 2rem 0;
-  background: #2E8EE6;
-
+  background: var(--primary);
 }
 @keyframes fadeIn {
     from {
@@ -54,8 +53,8 @@
   display: block;
   margin: 2rem auto;
   padding: 0.6rem 1.4rem;
-  background-color: #3BFFB8;
-  color: #1A1A1A;
+  background: #155DC8;
+  color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
